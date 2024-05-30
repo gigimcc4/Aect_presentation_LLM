@@ -566,4 +566,4 @@ Yang, J., Jin, H., Tang, R., Han, X., Feng, Q., Jiang, H., ... & Hu, X. (2024). 
 
 [`arXiv` pre-press site with Cornell 🔗](https://arxiv.org/)
 
-[`Slides in Github for reproducibility` 🔗](https://github.com/gigimcc4/AECT_speakerpres_2024/tree/main)
+[`Slides in Github for reproducibility` 🔗](https://github.com/gigimcc4/Aect_presentation_LLM)

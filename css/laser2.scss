@@ -1,0 +1,55 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+// Fonts
+$font-family-sans-serif: 'Open Sans', 'Roboto', sans-serif !default;
+
+/* Import custom font */
+@font-face {
+  font-family: 'BillsMafia';
+  src: url('../css/bills_mafia.ttf') format('truetype');
+}
+
+/* Use the custom font */
+.custom-font {
+  font-family: 'BillsMafia', $font-family-sans-serif;
+}
+
+// Global styles and colors
+$body-color: #000000 !default;
+$linkColor: #d34126 !default;
+$linkColorHover: #e77225 !default;
+$selection-bg: #26351c;
+
+// Heading styles
+$presentation-heading-font: 'Open Sans', 'Roboto', sans-serif !default;
+$presentation-heading-color: #8f303b !default;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingTextShadow: none;
+$headingFontWeight: normal;
+
+$heading1Size: 2.00em;
+$heading2Size: 1.75em;
+$heading3Size: 1.00em;
+$heading4Size: .75em;
+$heading5Size: .50em;
+
+
+
+// Background image settings
+$global-background-image: url('../img/background.jpg');  // Ensure the path is correct
+
+.reveal .slides {
+  background-image: $global-background-image;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  // Apply !important to ensure these styles take precedence
+  background-image: $global-background-image !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+}

@@ -1,0 +1,569 @@
+---
+title: "Harnessing Large Language Models"
+subtitle: "*for enhanced learning and equity*"
+
+format: 
+  revealjs:
+    multiplex: false
+    theme: [default, css/index.scss]
+    slide-number: c/t
+    incremental: true
+    title-slide-attributes:
+      data-background-image: img/title_2.svg
+      data-background-size: cover 
+editor: visual
+---
+
+## What are LLMs? {background-image="img/background.jpg"}
+
+> Are `pre-trained` and then `fine-tuned` for purposes to solve common language problems (Wei et al, 2022b).
+
+![](img/text_class.png){.absolute .fragment top="300" left="5" width="300"}
+
+![](img/text_gen.png){.absolute .fragment top="300" left="325" width="300"}
+
+![](img/text_summ.png){.absolute .fragment top="325" left="600" width="300"}
+
+![](img/ques_ans.png){.absolute .fragment top="325" left="850" width="300"}
+
+::: notes
+-   LLMs are sophisticated models like GPT (from OpenAI) and BERT (from Google) that leverage NLP techniques to perform tasks like text generation, comprehension, translation, and more.
+
+-   They do this by fine tuning for purposes to solve common language problems like:
+
+**Text Classification:**
+
+**Text Generation:**
+
+**Document Summarization:**
+
+**Question Answering:**
+:::
+
+## Where are LLMs {background-image="img/background.jpg"}
+
+![](img/LLM_ai.svg){.absolute .fragment top="100" left="120" width="650"}
+
+![](img/LLM_ml.svg){.absolute .fragment top="100" left="120" width="650"}
+
+![](img/LLM_nlp.svg){.absolute .fragment top="100" left="120" width="650"}
+
+![](img/LLM_dl.svg){.absolute .fragment top="100" left="120" width="650"}
+
+![](img/LLM_ga.svg){.absolute .fragment top="100" left="120" width="650"}
+
+![](img/LLM_cv.svg){.absolute .fragment top="100" left="120" width="650"}
+
+![](img/LLM_llm.svg){.absolute .fragment top="100" left="120" width="650"}
+
+::: notes
+:::
+
+## Types of LLMs {background-image="img/background.jpg"}
+
+![](img/tree.svg)
+
+::: {style="font-size: 75%;"}
+(Yang et al., 2024)
+:::
+
+::: notes
+Accelerated Progress:
+
+The evolutionary tree underscores the rapid pace of advancements in LLM research.
+:::
+
+## LLMs used in Education {background-image="img/background.jpg"}
+
+![](img/lit_LLM.svg)
+
+::: notes
+THis is just a quick and loose literature review to see what is happening in education with LLM.In education, we observe several impactful themes emerging from the integration of large language models (LLMs):
+:::
+
+## Prompt Engineering (method) {background-image="img/background.jpg"}
+
+> Prompt Engineering is the skillful combination of art and science used to craft prompts that effectively draw specific responses from AI models (Akinwande et al., 2023, Augusto, 2023).
+
+-   Zero/Few-Shot (Brown et al., 2023)
+-   In-context Learning (ICL) (Dong et al., 2023)
+-   Chain-of-Thought (COT) (Wei et al., 2022)
+-   Assertion Enhanced Few-Shot Learning (AEFL) (Shiariar et al., 2023).
+
+::: notes
+:::
+
+## Prompt Engineering: Zero Shot with ICL {background-image="img/background.jpg"}
+
+![](img/PE_elements_zeroshot.svg)
+
+<h4>[Prompt Exercise - click to try it 🔗](https://drive.google.com/file/d/1d9G7C3YIhluDhjfysglUJ-Ch5D5Tn2DV/view?usp=sharing){preview-link="auto"}</h4>
+
+::: notes
+A prompt contains any of the following elements:
+
+Instruction - a specific task or instruction you want the model to perform.
+
+Context - external information or additional context that can steer the model to better responses.
+
+Input Data - the input or question that we are interested to find a response for.
+
+Output Indicator - the type or format of the output.
+:::
+
+## Prompt Engineering: Few Shot with ICL {background-image="img/background.jpg"}
+
+![](img/PE_elements_fewshot.svg)
+
+::: notes
+:::
+
+## Two case studies {background-image="img/background.jpg"}
+
+::: columns
+::: {.column width="40%"}
+::: fragment
+::: r-fit-text
+[STUDY 1]{.story} [`Leveraging Targeted Assertions in LLMs to Overcome Imbalances in Complex Educational Text Data.` 🔗](https://drive.google.com/file/d/1RaL3NX38L1zOIowtypZBicSvDUf0aLRH/view?usp=sharing){preview-link="auto"}
+
+Jeanne McClure, Machi Shimmei, Noboru Matsuda, Shiyan Jiang
+
+Objective: How do enhancements like prompt engineering (PE) and the integration of assertions improve the performance of large language models compared to traditional machine learning algorithms in addressing the challenges of imbalanced textual educational datasets?
+:::
+:::
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="50%"}
+::: fragment
+::: r-fit-text
+[STUDY 2]{.story} [`It's All About the Prompt: Deductive Coding's Role in AI vs. Human Performance.` 🔗](https://drive.google.com/file/d/1O99ZYAxYR_hHGDYvC7bVr-otIpvScuom/view?usp=sharing){preview-link="auto"}
+
+Jeanne McClure, Daria Smyslova, Amanda Hall & Shiyan Jiang
+
+Objective: How do large language models perform in deductive coding tasks in terms of accuracy, precision, and error patterns compared to human coders?
+:::
+:::
+:::
+:::
+
+::: notes
+:::
+
+## Methodology: [StoryQ Platform🔗](https://activity-player.concord.org/?runKey=ef745e9b-7acc-4af3-b5af-dbdf1d6edcde&sequence=https%3A%2F%2Fauthoring.concord.org%2Fapi%2Fv1%2Fsequences%2F645.json&sequenceActivity=0){preview-link="auto"}
+
+![](img/Fig.2_storyQ.svg){.absolute .fragment top="50" left="0" width="1100"}
+
+::: notes
+:::
+
+## Methodology - Context and Participants {background-image="img/background.jpg"}
+
+StoryQ - HS Journalism Class
+
+3 Modules - Machine Learning <br> Practices
+
+-   Sentiment Analysis
+
+-   Features and Models
+
+-   All Words as Features
+
+![](img/dis_partic.jpg){.absolute .fragment top="50" left="550" width="350"}
+
+![](img/dis_grade_use.jpg){.absolute .fragment top="350" left="400" width="300"}
+
+![](img/dis_race%20(3%20x%203%20in).jpg){.absolute .fragment top="300" left="800" width="300"}
+
+::: notes
+:::
+
+## Methodology - Framework {background-image="img/background.jpg"}
+
+Adapted ICAP (Wylie & Chi, 2014) informed with Bloom's (Anderson, 2001)
+
+![](img/ICAPframework.svg){.absolute .fragment top="150" left="0" width="1100"}
+
+::: notes
+:::
+
+# [STUDY 1]{.story} [🔑 Overcoming Data Imbalances with LLMs in Educational Research]{style="float:right;text-align:right;"} {background-color="#2596be"}
+
+------------------------------------------------------------------------
+
+### [STUDY 1]{.story} 🔑 Overcoming Data Imbalances with LLMs {background-image="img/background.jpg"}
+
+::: columns
+::: {.column width="55%"}
+::: fragment
+::: r-fit-text
+**`Data`**
+
+::: {style="font-size: 75%;"}
+-   Evaluated on the training dataset <br> from preliminary ML classification study <br> (*N*=135).
+-   Prompt techniques: Chain of Thought (COT), Few-Shot, Assertion Enhanced Few Shot (AEFL)
+-   Novel ICL Prompt Engineering Process
+:::
+
+![](img/ICL.svg){.absolute .fragment top="300" left="0" width="600"}
+:::
+:::
+:::
+
+::: {.column width="25%"}
+::: fragment
+::: r-fit-text
+**`Analysis:`**
+
+-   Performance evaluation metrics (Recall, Precision and F1)
+
+-   Custom metric, *f*(m<sub>i</sub>, m<sub>j</sub>) = s<sub>i</sub> - s<sub>j</sub>
+
+-   Pairwise comparison matrix
+
+-   Sensitivity analysis
+:::
+:::
+:::
+:::
+
+::: notes
+## Prompts {background-image="img/background.jpg"}
+
+![](img/COT_example.svg){.absolute .fragment top="100" left="0" width="550"}
+
+![](img/no_assert.svg){.absolute .fragment top="25" left="550" width="600"}
+
+![](img/aefl.svg){.absolute .fragment top="355" left="550" width="600"}
+
+::: notes
+**`Prompt Techniques used`**
+:::
+
+## 🔑 Overcoming Data Imbalances with LLMs (RQ1) {background-image="img/background.jpg"}
+
+::: columns
+::: {.column width="50%"}
+::: fragment
+**`FINDINGS:`**
+
+::: {style="font-size: 75%;"}
+RQ1: How do the results obtained from LLMs with Prompt Engineering compare to traditional Machine Learning algorithms in handling imbalanced educational data?
+
+</h4>
+
+![](img/llm.svg){.absolute .fragment top="50" left="517" width="575"}
+
+![](img/precision.svg){.absolute .fragment top="375" left="517" width="575"}
+:::
+:::
+:::
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
+::: box
+<h4>
+
+-   Performance: LLMs excelled in minority classes
+
+-   
+
+    ```         
+      Constructive - 32% ⬆️ F1 score.
+    ```
+
+-   Comparison: Outperformed traditional ML models, particularly in handling data imbalances.
+
+-   Assertions: Improved accuracy and reduced misclassifications by effectively addressing contextual complexities.
+
+-   
+
+    ```         
+      Active - 15.96% ⬆️ precision, 6.08% ⬆️ F score1
+    ```
+
+</h4>
+:::
+:::
+
+::: notes
+:::
+
+## 🔑 Overcoming Data Imbalances with LLMs (RQ2) {background-image="img/background.jpg"}
+
+::: {style="font-size: 75%;"}
+RQ2: In what ways does the integration of assertions enhance the efficacy of models when addressing the challenges associated with imbalanced textual educational datasets?
+
+</h4>
+:::
+
+::: columns
+::: {.column width="40%"}
+::: fragment
+**`FINDINGS:`**
+
+::: {style="font-size: 55%;"}
+`Objective:`
+
+-   Improve Active class metrics and model equity.
+
+`Setup:`
+
+-   10 experiments, including baseline (General COT Steps 5 & 6).
+:::
+:::
+:::
+:::
+
+::: {.column width="50%"}
+</br>
+
+::: fragment
+::: {style="font-size: 55%;"}
+`Key Issues Identified:`
+
+**Textual Ambiguity:**
+
+-   Misinterpreted engagement depth (superficial vs. analytical).
+
+**Contextual Comprehension:**
+
+-   Speculative language misclassified as analytical.
+
+`Assertion Impact:`
+
+**Constructive Class:**
+
+-   Recall: +6.33%, F1-Score: +4.30%.
+
+**Speculative Language Adjustment:**
+
+-   Precision (Active): +15.96%, F1-Score (Active): +6.08%
+-   Recall (Active): -2.34%.
+:::
+:::
+:::
+:::
+
+::: notes
+:::
+
+# [STUDY 2]{.story} [💬 Exploring the Efficacy of LLMs in Qualitative Data Analysis]{style="float:right;text-align:right;"} {background-color="#2596be"}
+
+------------------------------------------------------------------------
+
+### [STUDY 2]{.story} 💬 CONTEXT: Exploring the Efficacy of LLMs in Qualitative Data Analysis {background-image="img/background.jpg"}
+
+::: columns
+::: {.column width="40%"}
+::: fragment
+::: r-fit-text
+**METHODOLOGY:**
+
+`Prompt Techniques used`
+
+-   One-Shot/Few-Shot (Brown et al., 2020)
+-   In-context Learning (ICL) (Dong et al., 2023)
+-   Chain-of-Thought (COT) (Wei et al., 2022)
+
+`Participants`
+
+-   Two human coders and Open AI LLMs
+:::
+:::
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="50%"}
+::: fragment
+::: r-fit-text
+`Methodology:`
+
+-   This mixed-method approach addresses both quantitative and qualitative aspects of coding, examining the depth and precision LLMs can offer in interpreting complex student responses.
+
+`Significance:`
+
+-   Demonstrates LLMs' potential in enhancing qualitative research methodologies.
+
+-   Explores strategic prompt engineering to maximize LLM performance.
+:::
+:::
+:::
+:::
+
+## 💬 Experiments: Exploring the Efficacy of LLMs in Qualitative Data Analysis {background-image="img/background.jpg"}
+
+::: columns
+::: {.column width="30%"}
+::: r-fit-text
+<h4>
+
+`Experiments Conducted`
+
+-   [Three experiments🔗](https://docs.google.com/document/d/1aKNw0rDXuPgLWN0eZ3FpgFCtufozZWixF6rS3L663Ug/edit?usp=sharing)" prompts used by LLM to evaluate deductive codes.
+
+`Code Book`
+
+-   [Deductive Codebook🔗](https://drive.google.com/file/d/1MzU9KvKbZcYL7llSCyA9XBrTNewksHCM/view?usp=sharing)" codebook used by humans to evaluate deductive codes.
+
+</h4>
+:::
+:::
+
+::: {.column width="60%"}
+![](img/python.svg){.absolute .fragment top="150" left="400" width="700"}
+:::
+:::
+
+::: notes
+:::
+
+## 💬 FINDINGS: Exploring the Efficacy of LLMs in Qualitative Data Analysis {background-image="img/background.jpg"}
+
+::: columns
+::: {.column width="40%"}
+::: fragment
+::: r-fit-text
+**FINDINGS:**
+
+::: box
+-   Zero shot and COT LLM outperfomed human coders
+-   COT with Few Shot improved LLM performance in minority class
+-   COT, Few Shot with domain specific reasoning improved LLM and Human coders
+:::
+:::
+:::
+:::
+
+::: {.column width="60%"}
+::: fragment
+::: r-fit-text
+![](img/accuracy_score.png){.absolute .fragment top="200" left="450" width="700"}
+:::
+:::
+:::
+:::
+
+::: notes
+:::
+
+## Implications and Applications
+
+::: columns
+::: {.column width="50%"}
+**`Theoretical Implications:`**
+
+-   Enhanced Understanding of Cognitive Engagement
+
+-   Refinement of Engagment Metrics
+
+-   Advancement in Prompt Engineering Techniques
+:::
+
+::: {.column width="50%"}
+**`Practical Applications:`**
+
+-   Improvement in Educational Content and Equity
+
+-   Streamlined Research and Writing
+
+-   Improved Problem-Solving
+
+-   Efficient Assessment and Curriculum Design
+:::
+:::
+
+::: notes
+:::
+
+## LLMs in Education: Ethical Challenges and Future Directions {background-image="img/background.jpg"}
+
+::: columns
+::: {.column width="50%"}
+::: fragment
+<h3>Ethical challenges:</h3>
+
+-   **Hallucinations** (Wu et al., 2022).
+
+-   **Inconsistency** (Hase et al., 2021).
+
+-   **Specialization Needs**
+
+<h3>Future Directions:</h3>
+
+-   **Refining Prompt Design**
+
+-   **Real-time Tools**
+
+-   **Impact Assessments**
+:::
+:::
+
+::: {.column width="50%"}
+::: fragment
+<h3>Transformative Potential:</h3>
+
+-   **Empowering Educators**
+
+-   **Innovative Pedagogy**
+
+-   **Data Management**
+:::
+:::
+:::
+
+::: notes
+:::
+
+## Acknowledgements {background-image="img/background.jpg"}
+
+::: r-fit-text
+> Thank you to my Advisor and Chair, *Shiyan Jiang*. Additionally, thank you to *Noboru Matsuda's* lab in Computer Science department and Tasmia Shairiar. A special thanks to Machi Simmei, Daria Smyslova and Amanda Hall for their collaborations on our papers.
+
+<br /><br />
+
+> This material is based upon work supported by the National Science Foundation under Grant No. DRL-1949110. Any opinions, findings, conclusions, or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+:::
+
+## References {background-image="img/background.jpg"}
+
+::: r-fit-text
+<h4>
+
+Akinwande, V., Jiang, Y., Sam, D., & Kolter, J. Z. (2023). Understanding prompt engineering may not require rethinking generalization. arXiv preprint arXiv:2310.03957.
+
+Augusto C., P. (2023, April 20). The importance of prompt engineering in natural language systems. LinkedIn. https://www.linkedin.com/pulse/importance-prompt-engineering-natural-language-c-cardoso-r-/
+
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A., et al. (2020). Language models are few-shot learners. In Advances in Neural Information Processing Systems 33 (pp. 1877--1901).
+
+Dong, Q., Li, L., Dai, D., Zheng, C., Wu, Z., Chang, B., ... & Sui, Z. (2022). A survey on in-context learning. arXiv preprint arXiv:2301.00234.
+
+Hase, P., Diab, M., Celikyilmaz, A., Li, X., Kozareva, Z., Stoyanov, V., ... & Iyer, S. (2021). Do language models have beliefs? methods for detecting, updating, and visualizing model beliefs. arXiv preprint arXiv:2111.13654.
+
+Shahriar, T., Matsuda, N., & Ramos, K. (2023). Assertion Enhanced Few-Shot Learning: Instructive Technique for Large Language Models to Generate Educational Explanations. arXiv preprint arXiv:2312.03122.
+
+Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., ... & Zhou, D. (2022a). Chain-of-thought prompting elicits reasoning in large language models. Advances in neural information processing systems, 35, 24824-24837.
+
+Wei, J., Tay, Y., Bommasani, R., Raffel, C., Zoph, B., Borgeaud, S., ... & Fedus, W. (2022b). Emergent abilities of large language models. arXiv preprint arXiv:2206.07682.
+
+Wu, T., Terry, M., & Cai, C. J. (2022, April). Ai chains: Transparent and controllable human-ai interaction by chaining large language model prompts. In Proceedings of the 2022 CHI conference on human factors in computing systems (pp. 1-22).
+
+Yang, J., Jin, H., Tang, R., Han, X., Feng, Q., Jiang, H., ... & Hu, X. (2024). Harnessing the power of llms in practice: A survey on chatgpt and beyond. ACM Transactions on Knowledge Discovery from Data, 18(6), 1-32.
+
+</h4>
+:::
+
+## Resources {background-image="img/background.jpg"}
+
+[`Open AI courses - Prompt Engineering.`🔗](https://www.deeplearning.ai/short-courses/){preview-link="auto"}
+
+[`arXiv` pre-press site with Cornell 🔗](https://arxiv.org/)
+
+[`Slides in Github for reproducibility` 🔗](https://github.com/gigimcc4/AECT_speakerpres_2024/tree/main)

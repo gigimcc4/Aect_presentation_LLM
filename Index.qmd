@@ -562,6 +562,8 @@ Yang, J., Jin, H., Tang, R., Han, X., Feng, Q., Jiang, H., ... & Hu, X. (2024). 
 
 [`Open AI courses - Prompt Engineering.`🔗](https://www.deeplearning.ai/short-courses/){preview-link="auto"}
 
+[`OpenAI Cookbook 4o](https://cookbook.openai.com/examples/gpt4o/introduction_to_gpt4o)
+
 [`arXiv` pre-press site with Cornell 🔗](https://arxiv.org/)
 
 [`Slides in Github for reproducibility` 🔗](https://github.com/gigimcc4/Aect_presentation_LLM)

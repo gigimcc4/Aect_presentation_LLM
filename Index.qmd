@@ -124,7 +124,7 @@ Output Indicator - the type or format of the output.
 ::: {.column width="40%"}
 ::: fragment
 ::: r-fit-text
-[STUDY 1]{.story} [`Leveraging Targeted Assertions in LLMs to Overcome Imbalances in Complex Educational Text Data.` 🔗](https://drive.google.com/file/d/1RaL3NX38L1zOIowtypZBicSvDUf0aLRH/view?usp=sharing){preview-link="auto"}
+[STUDY 1]{.story} [`Leveraging Targeted Assertions in LLMs to Overcome Imbalances in Complex Educational Text Data.` 🔗](https://drive.google.com/file/d/158Pk2UoP-7yKZm2oVCUTiVk2OfHDM2lP/view?usp=sharing)
 
 Jeanne McClure, Machi Shimmei, Noboru Matsuda, Shiyan Jiang
 
@@ -229,7 +229,7 @@ Adapted ICAP (Wylie & Chi, 2014) informed with Bloom's (Anderson, 2001)
 :::
 :::
 
-::: notes
+
 ## Prompts {background-image="img/background.jpg"}
 
 ![](img/COT_example.svg){.absolute .fragment top="100" left="0" width="550"}
@@ -238,9 +238,7 @@ Adapted ICAP (Wylie & Chi, 2014) informed with Bloom's (Anderson, 2001)
 
 ![](img/aefl.svg){.absolute .fragment top="355" left="550" width="600"}
 
-::: notes
-**`Prompt Techniques used`**
-:::
+
 
 ## 🔑 Overcoming Data Imbalances with LLMs (RQ1) {background-image="img/background.jpg"}
 
@@ -261,6 +259,7 @@ RQ1: How do the results obtained from LLMs with Prompt Engineering compare to tr
 :::
 :::
 :::
+
 
 ::: {.column width="10%"}
 :::
@@ -291,16 +290,15 @@ RQ1: How do the results obtained from LLMs with Prompt Engineering compare to tr
 :::
 :::
 
-::: notes
-:::
+
 
 ## 🔑 Overcoming Data Imbalances with LLMs (RQ2) {background-image="img/background.jpg"}
 
 ::: {style="font-size: 75%;"}
 RQ2: In what ways does the integration of assertions enhance the efficacy of models when addressing the challenges associated with imbalanced textual educational datasets?
 
-</h4>
 :::
+
 
 ::: columns
 ::: {.column width="40%"}

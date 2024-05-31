@@ -494,7 +494,7 @@
 <div class="column" style="width:40%;">
 <div class="fragment">
 <div class="r-fit-text">
-<p><span class="story">STUDY 1</span> <a href="https://drive.google.com/file/d/1RaL3NX38L1zOIowtypZBicSvDUf0aLRH/view?usp=sharing" data-preview-link="auto"><code>Leveraging Targeted Assertions in LLMs to Overcome Imbalances in Complex Educational Text Data.</code> 🔗</a></p>
+<p><span class="story">STUDY 1</span> <a href="https://drive.google.com/file/d/158Pk2UoP-7yKZm2oVCUTiVk2OfHDM2lP/view?usp=sharing"><code>Leveraging Targeted Assertions in LLMs to Overcome Imbalances in Complex Educational Text Data.</code> 🔗</a></p>
 <p>Jeanne McClure, Machi Shimmei, Noboru Matsuda, Shiyan Jiang</p>
 <p>Objective: How do enhancements like prompt engineering (PE) and the integration of assertions improve the performance of large language models compared to traditional machine learning algorithms in addressing the challenges of imbalanced textual educational datasets?</p>
 </div>
@@ -624,25 +624,11 @@
 </div>
 </div>
 </section>
-<aside class="notes">
 <section id="prompts" class="slide level2" data-background-image="img/background.jpg">
 <h2>Prompts</h2>
 <p><img data-src="img/COT_example.svg" class="absolute fragment" style="top: 100px; left: 0px; width: 550px; "></p>
 <p><img data-src="img/no_assert.svg" class="absolute fragment" style="top: 25px; left: 550px; width: 600px; "></p>
 <p><img data-src="img/aefl.svg" class="absolute fragment" style="top: 355px; left: 550px; width: 600px; "></p>
-<aside class="notes">
-<p><strong><code>Prompt Techniques used</code></strong></p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 <section id="overcoming-data-imbalances-with-llms-rq1" class="slide level2" data-background-image="img/background.jpg">
 <h2>🔑 Overcoming Data Imbalances with LLMs (RQ1)</h2>
@@ -666,34 +652,20 @@
 <div class="box">
 <h4>
 <ul>
-<li><p>Performance: LLMs excelled in minority classes</p></li>
-<li><pre><code>  Constructive - 32% ⬆️ F1 score.</code></pre></li>
-<li><p>Comparison: Outperformed traditional ML models, particularly in handling data imbalances.</p></li>
-<li><p>Assertions: Improved accuracy and reduced misclassifications by effectively addressing contextual complexities.</p></li>
-<li><pre><code>  Active - 15.96% ⬆️ precision, 6.08% ⬆️ F score1</code></pre></li>
+<li class="fragment"><p>Performance: LLMs excelled in minority classes</p></li>
+<li class="fragment"><pre><code>  Constructive - 32% ⬆️ F1 score.</code></pre></li>
+<li class="fragment"><p>Comparison: Outperformed traditional ML models, particularly in handling data imbalances.</p></li>
+<li class="fragment"><p>Assertions: Improved accuracy and reduced misclassifications by effectively addressing contextual complexities.</p></li>
+<li class="fragment"><pre><code>  Active - 15.96% ⬆️ precision, 6.08% ⬆️ F score1</code></pre></li>
 </ul>
 </h4>
 </div>
 </div>
-<aside class="notes">
-
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 <section id="overcoming-data-imbalances-with-llms-rq2" class="slide level2" data-background-image="img/background.jpg">
 <h2>🔑 Overcoming Data Imbalances with LLMs (RQ2)</h2>
 <div style="font-size: 75%;">
 <p>RQ2: In what ways does the integration of assertions enhance the efficacy of models when addressing the challenges associated with imbalanced textual educational datasets?</p>
-
 </div>
 <div class="columns">
 <div class="column" style="width:40%;">
@@ -702,11 +674,11 @@
 <div style="font-size: 55%;">
 <p><code>Objective:</code></p>
 <ul>
-<li>Improve Active class metrics and model equity.</li>
+<li class="fragment">Improve Active class metrics and model equity.</li>
 </ul>
 <p><code>Setup:</code></p>
 <ul>
-<li>10 experiments, including baseline (General COT Steps 5 &amp; 6).</li>
+<li class="fragment">10 experiments, including baseline (General COT Steps 5 &amp; 6).</li>
 </ul>
 </div>
 </div>
@@ -719,37 +691,26 @@
 <p><code>Key Issues Identified:</code></p>
 <p><strong>Textual Ambiguity:</strong></p>
 <ul>
-<li>Misinterpreted engagement depth (superficial vs.&nbsp;analytical).</li>
+<li class="fragment">Misinterpreted engagement depth (superficial vs.&nbsp;analytical).</li>
 </ul>
 <p><strong>Contextual Comprehension:</strong></p>
 <ul>
-<li>Speculative language misclassified as analytical.</li>
+<li class="fragment">Speculative language misclassified as analytical.</li>
 </ul>
 <p><code>Assertion Impact:</code></p>
 <p><strong>Constructive Class:</strong></p>
 <ul>
-<li>Recall: +6.33%, F1-Score: +4.30%.</li>
+<li class="fragment">Recall: +6.33%, F1-Score: +4.30%.</li>
 </ul>
 <p><strong>Speculative Language Adjustment:</strong></p>
 <ul>
-<li>Precision (Active): +15.96%, F1-Score (Active): +6.08%</li>
-<li>Recall (Active): -2.34%.</li>
+<li class="fragment">Precision (Active): +15.96%, F1-Score (Active): +6.08%</li>
+<li class="fragment">Recall (Active): -2.34%.</li>
 </ul>
 </div>
 </div>
 </div>
-</section>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<p>:::</p>
 <aside class="notes">
 
 <style type="text/css">
@@ -762,7 +723,8 @@
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section>
+      }</style></aside>
+</section></section>
 <section>
 <section id="study-2-exploring-the-efficacy-of-llms-in-qualitative-data-analysis" class="title-slide slide level1 center" data-background-color="#2596be">
 <h1><span class="story">STUDY 2</span> <span style="float:right;text-align:right;">💬 Exploring the Efficacy of LLMs in Qualitative Data Analysis</span></h1>
